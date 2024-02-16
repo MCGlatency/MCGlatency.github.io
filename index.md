@@ -63,7 +63,7 @@ Key instrumentations in `AOSP` involve game rendering in [`eglApi.cpp`](https://
 We also instrument `Sunshine/Moonlight` to monitor frame encoding and decoding.
 | File | Instrumented Symbols | Purpose | Location in `Sunshine/Moonlight` |
 | ---- | ---- | ---- | ---- |
-|   [`video.cpp`](https://github.com/MCGlatency/MCGlatency.github.io/blob/main/frame_trace/video.cpp)   |   `encode_avcodec`   |   Monitor frame encodeing | `Sunshine/src/video.cpp` |
+|   [`video.cpp`](https://github.com/MCGlatency/MCGlatency.github.io/blob/main/frame_trace/video.cpp)   |   `encode_avcodec`   |   Monitor frame encoding | `Sunshine/src/video.cpp` |
 |   [`MediaCodecDecoderRenderer.java`](https://github.com/MCGlatency/MCGlatency.github.io/blob/main/frame_trace/MediaCodecDecoderRenderer.java)   |   `startRendererThread`   |   Monitor frame decoding | `moonlight-android/app/src/main/java/com/limelight/binding/video/MediaCodecDecoderRenderer.java` |
 
 ## LoopTailor
